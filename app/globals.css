@@ -12,4 +12,6 @@
   .h2 {
     @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
   }
+  
 }
+

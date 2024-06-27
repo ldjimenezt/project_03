@@ -1,18 +1,17 @@
 import Link from "next/link";
-
+import { FaXTwitter } from "react-icons/fa6";
 import 
 {
   FaInstagram,
   FaFacebook,
   FaLinkedinIn,
-  FaTwitter,
 } from "react-icons/fa";
 
 const socials = [
   { icon: <FaInstagram />, path: "" },
   { icon: <FaFacebook />, path: "" },
   { icon: <FaLinkedinIn />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaXTwitter />, path: "" },
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {
