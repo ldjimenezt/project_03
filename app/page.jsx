@@ -10,31 +10,24 @@ const Home = () => {
       {/* Imagen de fondo */}
       <div className="relative h-full">
         <div className="absolute inset-0 z-[-1]">
-          <Image
-            src={DesktopImage}
-            alt="Hero background"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            priority={true}
-          />
+          
         </div>
 
         {/* Contenido principal */}
-        <div className="relative z-10 flex flex-col items-start justify-center h-full text-white/90 px-4">
+        <div className="relative z-10 flex flex-col items-start justify-center h-full text-white/95 px-4">
           <Header />
 
           {/* Contenido del título y subtítulo */}
-          <div className="container mx-auto mb-8">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Cocha Escena
+          <div className="container mx-auto mb-8 text-center justify-center">
+            <h1 className="text-4xl md:text-6xl font-black mb-6">
+              COCHA ESCENA
             </h1>
-            <h2 className="text-2xl md:text-2xl max-w-xl">
+            <p className="text-sm md:text-2xl max-w-xl">
               <span className="inline-block overflow-hidden">
                 Descubre y Vive la Cultura Andina a través de la danza y el
                 teatro
               </span>
-            </h2>
+            </p>
             <div className="flex flex-col xl:flex-row items-center gap-8 mt-8">
               <Button
                 variant="outline"
